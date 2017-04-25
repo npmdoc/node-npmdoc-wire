@@ -90,6 +90,15 @@
 
         <li>
 
+            <a class="apidocElementLiA" href="#apidoc.element.wire.DirectedGraph">
+            function <span class="apidocSignatureSpan">wire.</span>DirectedGraph
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
             <a class="apidocElementLiA" href="#apidoc.element.wire.Map">
             function <span class="apidocSignatureSpan">wire.</span>Map
             <span class="apidocSignatureSpan">()</span>
@@ -126,69 +135,6 @@
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.wire.aop">
-            function <span class="apidocSignatureSpan">wire.</span>aop
-            <span class="apidocSignatureSpan">(options)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.wire.asap">
-            function <span class="apidocSignatureSpan">wire.</span>asap
-            <span class="apidocSignatureSpan">(promiseOrValue, onFulfill, onReject)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.wire.connect">
-            function <span class="apidocSignatureSpan">wire.</span>connect
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.wire.context">
-            function <span class="apidocSignatureSpan">wire.</span>context
-            <span class="apidocSignatureSpan">(specs, parent, options)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.wire.debug">
-            function <span class="apidocSignatureSpan">wire.</span>debug
-            <span class="apidocSignatureSpan">(options)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.wire.instantiate">
-            function <span class="apidocSignatureSpan">wire.</span>instantiate
-            <span class="apidocSignatureSpan">(ctor, args, forceConstructor)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.wire.invoker">
-            function <span class="apidocSignatureSpan">wire.</span>invoker
-            <span class="apidocSignatureSpan">(methodName, args)</span>
-            </a>
-
-        </li>
-
-        <li>
-
             <a class="apidocElementLiA" href="#apidoc.element.wire.lifecycle">
             function <span class="apidocSignatureSpan">wire.</span>lifecycle
             <span class="apidocSignatureSpan">(plugins, pluginApi)</span>
@@ -207,9 +153,9 @@
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.wire.pipeline">
-            function <span class="apidocSignatureSpan">wire.</span>pipeline
-            <span class="apidocSignatureSpan">(proxy, composeString, wire)</span>
+            <a class="apidocElementLiA" href="#apidoc.element.wire.registry">
+            function <span class="apidocSignatureSpan">wire.</span>registry
+            <span class="apidocSignatureSpan">()</span>
             </a>
 
         </li>
@@ -234,15 +180,6 @@
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.wire.toString">
-            function <span class="apidocSignatureSpan">wire.</span>toString
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">wire.</span>ComponentFactory.prototype</span>
 
         </li>
@@ -250,6 +187,12 @@
         <li>
 
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">wire.</span>Container.prototype</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">wire.</span>DirectedGraph.prototype</span>
 
         </li>
 
@@ -297,6 +240,18 @@
 
         <li>
 
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">wire.</span>cyclesTracker</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">wire.</span>defaultPlugins</span>
+
+        </li>
+
+        <li>
+
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">wire.</span>functional</span>
 
         </li>
@@ -309,7 +264,25 @@
 
         <li>
 
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">wire.</span>moduleId</span>
+
+        </li>
+
+        <li>
+
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">wire.</span>object</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">wire.</span>priority</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">wire.</span>registry.prototype</span>
 
         </li>
 
@@ -574,6 +547,68 @@
 
     </ol></li>
 
+    <li class="apidocModuleLi"><a href="#apidoc.module.wire.DirectedGraph">module wire.DirectedGraph</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.wire.DirectedGraph.DirectedGraph">
+            function <span class="apidocSignatureSpan">wire.</span>DirectedGraph
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.wire.DirectedGraph.prototype">module wire.DirectedGraph.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.wire.DirectedGraph.prototype._getOrCreateVertex">
+            function <span class="apidocSignatureSpan">wire.DirectedGraph.prototype.</span>_getOrCreateVertex
+            <span class="apidocSignatureSpan">(name)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.wire.DirectedGraph.prototype.addEdge">
+            function <span class="apidocSignatureSpan">wire.DirectedGraph.prototype.</span>addEdge
+            <span class="apidocSignatureSpan">(from, to)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.wire.DirectedGraph.prototype.eachEdgeFrom">
+            function <span class="apidocSignatureSpan">wire.DirectedGraph.prototype.</span>eachEdgeFrom
+            <span class="apidocSignatureSpan">(vertex, lambda)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.wire.DirectedGraph.prototype.eachVertex">
+            function <span class="apidocSignatureSpan">wire.DirectedGraph.prototype.</span>eachVertex
+            <span class="apidocSignatureSpan">(lambda)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.wire.DirectedGraph.prototype.removeEdge">
+            function <span class="apidocSignatureSpan">wire.DirectedGraph.prototype.</span>removeEdge
+            <span class="apidocSignatureSpan">(from, to)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
     <li class="apidocModuleLi"><a href="#apidoc.module.wire.Map">module wire.Map</a><ol>
 
         <li>
@@ -822,19 +857,6 @@
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.wire.aop">module wire.aop</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.wire.aop.aop">
-            function <span class="apidocSignatureSpan">wire.</span>aop
-            <span class="apidocSignatureSpan">(options)</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
     <li class="apidocModuleLi"><a href="#apidoc.module.wire.array">module wire.array</a><ol>
 
         <li>
@@ -860,32 +882,6 @@
             <a class="apidocElementLiA" href="#apidoc.element.wire.array.union">
             function <span class="apidocSignatureSpan">wire.array.</span>union
             <span class="apidocSignatureSpan">(a1, a2)</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.wire.asap">module wire.asap</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.wire.asap.asap">
-            function <span class="apidocSignatureSpan">wire.</span>asap
-            <span class="apidocSignatureSpan">(promiseOrValue, onFulfill, onReject)</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.wire.connect">module wire.connect</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.wire.connect.connect">
-            function <span class="apidocSignatureSpan">wire.</span>connect
-            <span class="apidocSignatureSpan">()</span>
             </a>
 
         </li>
@@ -932,19 +928,6 @@
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.wire.context">module wire.context</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.wire.context.context">
-            function <span class="apidocSignatureSpan">wire.</span>context
-            <span class="apidocSignatureSpan">(specs, parent, options)</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
     <li class="apidocModuleLi"><a href="#apidoc.module.wire.cram">module wire.cram</a><ol>
 
         <li>
@@ -967,13 +950,35 @@
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.wire.debug">module wire.debug</a><ol>
+    <li class="apidocModuleLi"><a href="#apidoc.module.wire.cyclesTracker">module wire.cyclesTracker</a><ol>
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.wire.debug.debug">
-            function <span class="apidocSignatureSpan">wire.</span>debug
-            <span class="apidocSignatureSpan">(options)</span>
+            <a class="apidocElementLiA" href="#apidoc.element.wire.cyclesTracker.ensureNoCycles">
+            function <span class="apidocSignatureSpan">wire.cyclesTracker.</span>ensureNoCycles
+            <span class="apidocSignatureSpan">(namesGraph, name, onBehalfOf)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.wire.defaultPlugins">module wire.defaultPlugins</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.wire.defaultPlugins.0">
+            function <span class="apidocSignatureSpan">wire.defaultPlugins.</span>0
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.wire.defaultPlugins.1">
+            function <span class="apidocSignatureSpan">wire.defaultPlugins.</span>1
+            <span class="apidocSignatureSpan">()</span>
             </a>
 
         </li>
@@ -996,32 +1001,6 @@
             <a class="apidocElementLiA" href="#apidoc.element.wire.functional.partial">
             function <span class="apidocSignatureSpan">wire.functional.</span>partial
             <span class="apidocSignatureSpan">(f, args)</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.wire.instantiate">module wire.instantiate</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.wire.instantiate.instantiate">
-            function <span class="apidocSignatureSpan">wire.</span>instantiate
-            <span class="apidocSignatureSpan">(ctor, args, forceConstructor)</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.wire.invoker">module wire.invoker</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.wire.invoker.invoker">
-            function <span class="apidocSignatureSpan">wire.</span>invoker
-            <span class="apidocSignatureSpan">(methodName, args)</span>
             </a>
 
         </li>
@@ -1072,13 +1051,22 @@
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.wire.load">module wire.load</a><ol>
+    <li class="apidocModuleLi"><a href="#apidoc.module.wire.moduleId">module wire.moduleId</a><ol>
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.wire.load.load">
-            function <span class="apidocSignatureSpan">wire.</span>load
-            <span class="apidocSignatureSpan">(name, require, done)</span>
+            <a class="apidocElementLiA" href="#apidoc.element.wire.moduleId.base">
+            function <span class="apidocSignatureSpan">wire.moduleId.</span>base
+            <span class="apidocSignatureSpan">(id)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.wire.moduleId.resolve">
+            function <span class="apidocSignatureSpan">wire.moduleId.</span>resolve
+            <span class="apidocSignatureSpan">(base, id)</span>
             </a>
 
         </li>
@@ -1134,13 +1122,63 @@
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.wire.pipeline">module wire.pipeline</a><ol>
+    <li class="apidocModuleLi"><a href="#apidoc.module.wire.priority">module wire.priority</a><ol>
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.wire.pipeline.pipeline">
-            function <span class="apidocSignatureSpan">wire.</span>pipeline
-            <span class="apidocSignatureSpan">(proxy, composeString, wire)</span>
+            <a class="apidocElementLiA" href="#apidoc.element.wire.priority.sortReverse">
+            function <span class="apidocSignatureSpan">wire.priority.</span>sortReverse
+            <span class="apidocSignatureSpan">(list)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">number <span class="apidocSignatureSpan">wire.priority.</span>basePriority</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.wire.registry">module wire.registry</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.wire.registry.registry">
+            function <span class="apidocSignatureSpan">wire.</span>registry
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.wire.registry.prototype">module wire.registry.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.wire.registry.prototype._registerProxies">
+            function <span class="apidocSignatureSpan">wire.registry.prototype.</span>_registerProxies
+            <span class="apidocSignatureSpan">(proxiesToAdd)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.wire.registry.prototype.registerPlugin">
+            function <span class="apidocSignatureSpan">wire.registry.prototype.</span>registerPlugin
+            <span class="apidocSignatureSpan">(plugin, namespace)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.wire.registry.prototype.scanModule">
+            function <span class="apidocSignatureSpan">wire.registry.prototype.</span>scanModule
+            <span class="apidocSignatureSpan">(module, spec, namespace)</span>
             </a>
 
         </li>
@@ -1572,19 +1610,6 @@
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.wire.toString">module wire.toString</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.wire.toString.toString">
-            function <span class="apidocSignatureSpan">wire.</span>toString
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
 </ol></div>
 
 <div class="apidocSectionDiv">
@@ -1610,7 +1635,35 @@
 			return root.wire(spec, options);
 		});
 	}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+* The wire.js core is now **only 2.5k** with Google Closure + gzip!
+* **Limited support** for using wire in a non-AMD setup.  This is intended to aid in transitioning to AMD and CommonJS modules,
+and *it&#x27;s unlikely that wire&#x27;s full functionality will ever be extended to cover non-AMD/CommonJS environments.*
+	* wire.js can now create components using raw constructors in addition to AMD module ids.  This allows wire.js to create components
+ instances from libraries that haven&#x27;t yet fully committed to AMD or CommonJS.
+* **Deprecated functionality** - to be removed in v0.8.0
+    * Injecting a reference to the [full current context](https://github.com/cujojs/wire/wiki/Contexts) via `{ $ref: &#x27;wire!
+context&#x27; }`
+    	* The components in the current context will always be in an incomplete state, and relying on this is potentially dangerous
+.
+    	* I may consider allowing injecting a *promise* for the current context, which would resolve after the current context has
+finished wiring.
+    	* If you were using the `wire()` method of a context injected via `{ $ref: &#x27;wire!context&#x27; }`, you can use `{ $ref
+: &#x27;wire!&#x27; }` instead, which provides a direct reference to the `wire()` method itself--i.e. it injects a *function* that
+ works just like `context.<span class="apidocCodeKeywordSpan">wire</span>()`.
+	* Many plugin methods received a `wire` parameter that had several promise helper methods, such as `wire.when`, `wire.whenAll`,
+etc.  These are deprecated in favor of simply using [when.js](https://github.com/cujojs/when) instead, which is provided as a submodule
+ in the support dir.
+
+## 0.6.0
+
+* [wire/aop](https://github.com/cujojs/wire/wiki/wire-aop) plugin: AOP weaving with pointcuts, and before, after, afterReturning
+, afterThrowing, after (aka &#x22;afterFinally&#x22;) advice using [aop.js](https://github.com/cujojs/aop)
+* Experimental optimizer/build tool support for [cram](https://github.com/unscriptable/cram). Point cram at your wire spec and let
+ it optimize your entire app! *Docs coming soon*
+* [wire/debug](https://github.com/cujojs/wire/wiki/wire-debug) plugin: tracks components and tells you which ones couldn&#x27;t
+be wired and why
+...</pre></li>
     </ul>
 
 
@@ -1642,6 +1695,21 @@
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function Container() {
 		Scope.apply(this, arguments);
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.wire.DirectedGraph" id="apidoc.element.wire.DirectedGraph">
+        function <span class="apidocSignatureSpan">wire.</span>DirectedGraph
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function DirectedGraph() {
+		this.vertices = {};
 	}</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -1709,399 +1777,6 @@
 
 
     <h2>
-        <a href="#apidoc.element.wire.aop" id="apidoc.element.wire.aop">
-        function <span class="apidocSignatureSpan">wire.</span>aop
-        <span class="apidocSignatureSpan">(options)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">aop = function (options) {
-
-		var plugin, aspects, makeAdvice;
-
-		aspects = [];
-		makeAdvice = makeAdviceFacet.bind(null, aspects);
-
-		plugin = {
-			context: {
-				destroy: function(resolver) {
-					connection.removeAll(aspects);
-					resolver.resolve();
-				}
-			},
-			facets: {
-				decorate:       makeFacet(&#x27;configure:after&#x27;, decorateFacet),
-				afterFulfilling: makeFacet(adviceStep, makeAdvice(addAfterFulfillingAdvice)),
-				afterRejecting:  makeFacet(adviceStep, makeAdvice(addAfterRejectingAdvice)),
-				after: makeFacet(adviceStep, makeAdvice(addAfterPromiseAdvice))
-			}
-		};
-
-		if(options.aspects) {
-			plugin.create = function(resolver, proxy, wire) {
-				var woven = weave(proxy, wire, options, aspects);
-				resolver.resolve(woven);
-			};
-		}
-
-		// Add all regular single advice facets
-		adviceTypes.forEach(function(adviceType) {
-			plugin.facets[adviceType] = makeFacet(adviceStep,
-				makeAdvice(makeSingleAdviceAdd(adviceType)));
-		});
-
-		return plugin;
-
-		function makeFacet(step, callback) {
-			var facet = {};
-
-			facet[step] = function(resolver, proxy, wire) {
-				callback(resolver, proxy, wire);
-			};
-
-			return facet;
-		}
-
-	}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.wire.asap" id="apidoc.element.wire.asap">
-        function <span class="apidocSignatureSpan">wire.</span>asap
-        <span class="apidocSignatureSpan">(promiseOrValue, onFulfill, onReject)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function asap(promiseOrValue, onFulfill, onReject) {
-		return when.isPromiseLike(promiseOrValue)
-			? when(promiseOrValue, onFulfill, onReject)
-			: onFulfill(promiseOrValue);
-	}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.wire.connect" id="apidoc.element.wire.connect">
-        function <span class="apidocSignatureSpan">wire.</span>connect
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function connectPlugin() {
-
-		var connections = [];
-
-		function makeConnection(sourceProxy, methodName, handler) {
-			connections.push(sourceProxy.advise(methodName, { on: handler }));
-		}
-
-		function connectFacet(wire, facet) {
-			var promises, connects;
-
-			connects = facet.options;
-			promises = Object.keys(connects).map(function(key) {
-				return connection.parse(
-					facet, key, connects[key], wire, makeConnection);
-			});
-
-			return all(promises);
-		}
-
-		return {
-			context: {
-				destroy: function(resolver) {
-					connection.removeAll(connections);
-					resolver.resolve();
-				}
-			},
-			facets: {
-				// A facet named &#x22;connect&#x22; that runs during the connect
-				// lifecycle phase
-				connect: {
-					connect: function(resolver, facet, wire) {
-						resolver.resolve(connectFacet(wire, facet));
-					}
-				}
-			}
-		};
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.wire.context" id="apidoc.element.wire.context">
-        function <span class="apidocSignatureSpan">wire.</span>context
-        <span class="apidocSignatureSpan">(specs, parent, options)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function createContext(specs, parent, options) {
-		// Do the actual wiring after all specs have been loaded
-
-		if(!options) { options = {}; }
-		if(!parent)  { parent  = {}; }
-
-		options.createContext = createContext;
-
-		var specLoader = createSpecLoader(parent.moduleLoader, options.require);
-
-		return when(specs, function(specs) {
-			options.moduleLoader =
-				createContextLoader(specLoader, findBaseId(specs));
-
-			return specUtils.mergeSpecs(specLoader, specs).then(function(spec) {
-
-				var container = new Container(parent, options);
-
-				// Expose only the component instances and controlled API
-				return container.init(spec).then(function(context) {
-					return context.instances;
-				});
-			});
-		});
-	}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.wire.debug" id="apidoc.element.wire.debug">
-        function <span class="apidocSignatureSpan">wire.</span>debug
-        <span class="apidocSignatureSpan">(options)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function wireDebug(options) {
-
-		var contextTimer, timeout, paths, count, tag,
-			logCreated, logDestroyed, checkPathsTimeout,
-			verbose, filter, plugin, context, tracer;
-
-		verbose = options.verbose;
-		contextTimer = createTimer();
-
-		count = 0;
-		tag = &#x22;WIRING&#x22;;
-
-		tracer = { trace: noop, untrace: noop };
-
-		filter = createPathFilter(options.filter);
-
-		function contextTime(msg) {
-			return time(msg, contextTimer);
-		}
-
-		logger.log(contextTime(&#x22;Context debug&#x22;));
-
-		context = {
-			initialize: function(resolver) {
-				logger.log(contextTime(&#x22;Context init&#x22;));
-				resolver.resolve();
-			},
-			ready: function(resolver) {
-				cancelPathsTimeout();
-				logger.log(contextTime(&#x22;Context ready&#x22;));
-				resolver.resolve();
-			},
-			destroy: function(resolver) {
-				tracer.untrace();
-				logger.log(contextTime(&#x22;Context destroyed&#x22;));
-				resolver.resolve();
-			},
-			error: function(resolver, api, err) {
-				cancelPathsTimeout();
-				console.error(contextTime(&#x22;Context ERROR: &#x22;) + err, err);
-				logStack(err);
-				resolver.reject(err);
-			}
-		};
-
-		function makeListener(step, verbose) {
-			return function (promise, proxy<span class="apidocCodeCommentSpan"> /*, wire */) {
-				cancelPathsTimeout();
-
-				var path = proxy.path;
-
-				if (paths[path]) {
-					paths[path].status = step;
-				}
-
-				if (verbose &#x26;&#x26; filter(path)) {
-					var message = time(step + &#x27; &#x27; + (path || proxy.id || &#x27;&#x27;), contextTimer);
-					if (proxy.target) {
-						logger.log(message, proxy.target, proxy.metadata);
-					} else {
-						logger.log(message, proxy);
-					}
-				}
-
-				if(count) {
-					checkPathsTimeout = setTimeout(checkPaths, timeout);
-				}
-
-				promise.resolve();
-			};
-		}
-
-		paths = {};
-		timeout = options.timeout || defaultTimeout;
-		logCreated = makeListener(&#x27;created&#x27;, verbose);
-		logDestroyed = makeListener(&#x27;destroyed&#x27;, true);
-
-		function cancelPathsTimeout() {
-			clearTimeout(checkPathsTimeout);
-			checkPathsTimeout = null;
-		}
-
-		function checkPaths() {
-			if (!checkPathsTimeout) {
-				return;
-			}
-
-			var p, component, msg, ready, notReady;
-
-			logSeparator();
-			if(count) {
-				ready = [];
-				notReady = [];
-				logger.error(tag + &#x27;: No progress in &#x27; + timeout + &#x27;ms, status:&#x27;);
-
-				for (p in paths) {
-					component = paths[p];
-					msg = p + &#x27;: &#x27; + component.status;
-
-					(component.status == &#x27;ready&#x27; ? ready : notReady).push(
-						{ msg: msg, metadata: component.metadata }
-					);
-				}
-
-				if(notReady.length &#x3e; 0) {
-					logSeparator();
-					logger.log(&#x27;Components that DID NOT finish wiring&#x27;);
-					for(p = notReady.length-1; p &#x3e;= 0; --p) {
-						component = notReady[p];
-						logger.error(component.msg, component.metadata);
-					}
-				}
-
-				if(ready.length &#x3e; 0) {
-					logSeparator();
-					logger.log(&#x27;Components that finished wiring&#x27;);
-					for(p = ready.length-1; p &#x3e;= 0; --p) {
-						component = ready[p];
-						logger.log(component.msg, component.metadata);
-					}
-				}
-			} else {
-				logger.error(tag + &#x27;: No components created after &#x27; + timeout + &#x27;ms&#x27;);
-			}
-
-			logSeparator();
-		}
-
-		/**
-		 * Adds a named constructor function property to the supplied component
-		 * so that the name shows up in debug inspectors.  Squelches all errors.
-		 */
-</span>		function makeConstructor(name, component) {
-			/*jshint evil:true*/
-			var ctor;
-			try {
-				// Generate a named function to use as the constructor
-				name = name.replace(/^[^a-zA-Z$_]|[^a-zA-Z0-9$_]+/g, &#x27;_&#x27;);
-				eval(&#x27;ctor = function &#x27; + name + &#x27; () {}&#x27;);
-
-				// Be friendly and make configurable and writable just in case
-				// some other library or application code tries to set constructor.
-				Object.defineProperty(component, &#x27;constructor&#x27;, {
-					configurable: true,
-					writable: true,
-					value: ctor
-				});
-
-			} catch(e) {
-				// Oh well, ignore.
-			}
-		}
-
-		plugin = {
-			context: context,
-			create:function (promise, proxy) {
-				var path, component;
-
-				path = proxy.path;
-				component = proxy.target;
-
-				count++;
-				paths[path || (&#x27;(unnamed-&#x27; + count + &#x27;)&#x27;)] = {
-					metadata: proxy.metadata
-				};
-
-				if(component &#x26;&#x26; typeof component == &#x27;object&#x27;
-					&#x26;&#x26; !ownProp(component, &#x27;constructor&#x27;)) {
-					makeConstructor(proxy.id ...</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.wire.instantiate" id="apidoc.element.wire.instantiate">
-        function <span class="apidocSignatureSpan">wire.</span>instantiate
-        <span class="apidocSignatureSpan">(ctor, args, forceConstructor)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function instantiate(ctor, args, forceConstructor) {
-
-		var begotten, ctorResult;
-
-		if (forceConstructor || (forceConstructor === undef &#x26;&#x26; isConstructor(ctor))) {
-			begotten = Object.create(ctor.prototype);
-			defineConstructorIfPossible(begotten, ctor);
-			ctorResult = ctor.apply(begotten, args);
-			if(ctorResult !== undef) {
-				begotten = ctorResult;
-			}
-
-		} else {
-			begotten = ctor.apply(undef, args);
-
-		}
-
-		return begotten === undef ? null : begotten;
-	}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.wire.invoker" id="apidoc.element.wire.invoker">
-        function <span class="apidocSignatureSpan">wire.</span>invoker
-        <span class="apidocSignatureSpan">(methodName, args)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">invoker = function (methodName, args) {
-		return function(target) {
-			return target[methodName].apply(target, args);
-		};
-	}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
         <a href="#apidoc.element.wire.lifecycle" id="apidoc.element.wire.lifecycle">
         function <span class="apidocSignatureSpan">wire.</span>lifecycle
         <span class="apidocSignatureSpan">(plugins, pluginApi)</span>
@@ -2143,72 +1818,22 @@
 
 
     <h2>
-        <a href="#apidoc.element.wire.pipeline" id="apidoc.element.wire.pipeline">
-        function <span class="apidocSignatureSpan">wire.</span>pipeline
-        <span class="apidocSignatureSpan">(proxy, composeString, wire)</span>
+        <a href="#apidoc.element.wire.registry" id="apidoc.element.wire.registry">
+        function <span class="apidocSignatureSpan">wire.</span>registry
+        <span class="apidocSignatureSpan">()</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">function pipeline(proxy, composeString, wire) {
+    <li>description and source-code<pre class="apidocCodePre">function PluginRegistry() {
+		this.plugins = [];
+		this._namespaces = {};
 
-		var bindSpecs, resolveRef, getProxy;
-
-		if(typeof composeString != &#x27;string&#x27;) {
-			return wire(composeString).then(function(func) {
-				return createProxyInvoker(proxy, func);
-			});
-		}
-
-		bindSpecs = composeString.split(pipelineSplitRx);
-		resolveRef = wire.resolveRef;
-		getProxy = wire.getProxy;
-
-		function createProxyInvoker(proxy, method) {
-			return function() {
-				return proxy.invoke(method, arguments);
-			};
-		}
-
-		function createBound(proxy, bindSpec) {
-			var target, method;
-
-			target = bindSpec.split(&#x27;.&#x27;);
-
-			if(target.length &#x3e; 2) {
-				throw new Error(&#x27;Only 1 &#x22;.&#x22; is allowed in refs: &#x27; + bindSpec);
-			}
-
-			if(target.length &#x3e; 1) {
-				method = target[1];
-				target = target[0];
-				return when(getProxy(target), function(proxy) {
-					return createProxyInvoker(proxy, method);
-				});
-			} else {
-				if(proxy &#x26;&#x26; typeof proxy.get(bindSpec) == &#x27;function&#x27;) {
-					return createProxyInvoker(proxy, bindSpec);
-				} else {
-					return resolveRef(bindSpec);
-				}
-			}
-
-		}
-
-		// First, resolve each transform function, stuffing it into an array
-		// The result of this reduce will an array of concrete functions
-		// Then add the final context[method] to the array of funcs and
-		// return the composition.
-		return when.reduce(bindSpecs, function(funcs, bindSpec) {
-			return when(createBound(proxy, bindSpec), function(func) {
-				funcs.push(func);
-				return funcs;
-			});
-		}, []).then(
-			function(funcs) {
-				var context = proxy &#x26;&#x26; proxy.target;
-				return (funcs.length == 1 ? funcs[0] : compose(funcs)).bind(context);
-			}
-		);
+		this.contextListeners = [];
+		this.listeners = [];
+		this.proxiers =  [];
+		this.resolvers = {};
+		this.factories = {};
+		this.facets =    {};
 	}</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -2247,34 +1872,15 @@
 
 
 
-    <h2>
-        <a href="#apidoc.element.wire.toString" id="apidoc.element.wire.toString">
-        function <span class="apidocSignatureSpan">wire.</span>toString
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">toString = function () {
-    return text;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
 
-						// return result
-						return val;
 
-					} catch (e) {
 
-						// rethrow
-						logAfter(context, &#x27; THROW (&#x27;, start, e ? e.<span class="apidocCodeKeywordSpan">toString</span>() : e);
 
-						throw e;
 
-					} finally {
-						// And now decrease the depth after
-						--depth;
-					}
-...</pre></li>
-    </ul>
+
+
+
+
 
 
 
@@ -2532,21 +2138,21 @@
 			}
 		}</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-				return when.reduce(proxies,
-					function(_, proxy) { return lifecycle.shutdown(proxy); },
-					undef);
-			}
+				self._hidePrefs = function() {
 
-			function destroyComponents() {
-				return when.reduce(proxies,
-					function(_, proxy) { return proxy.<span class="apidocCodeKeywordSpan">destroy</span>(); },
-					undef);
-			}
+					// Reset _hidePrefs to a noop in case someone
+					// calls it.
+					self._hidePrefs = noop;
+
+					// Destroy the prefsContext
+					prefsContext.<span class="apidocCodeKeywordSpan">destroy</span>();
+				}
+			});
 		},
 
-		_registerProxy: function(proxy) {
-			if(proxy.metadata) {
-				proxy.path = proxy.metadata.path;
+		// Do-nothing show/hide methods, initially.
+		// _showPrefs will be overwritten with an injected wire function.
+		// _hidePrefs is overridden with a function to destroy the
 ...</pre></li>
     </ul>
 
@@ -3175,6 +2781,211 @@
 </div>
 
 <div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.wire.DirectedGraph" id="apidoc.module.wire.DirectedGraph">module wire.DirectedGraph</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.wire.DirectedGraph.DirectedGraph" id="apidoc.element.wire.DirectedGraph.DirectedGraph">
+        function <span class="apidocSignatureSpan">wire.</span>DirectedGraph
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function DirectedGraph() {
+		this.vertices = {};
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.wire.DirectedGraph.prototype" id="apidoc.module.wire.DirectedGraph.prototype">module wire.DirectedGraph.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.wire.DirectedGraph.prototype._getOrCreateVertex" id="apidoc.element.wire.DirectedGraph.prototype._getOrCreateVertex">
+        function <span class="apidocSignatureSpan">wire.DirectedGraph.prototype.</span>_getOrCreateVertex
+        <span class="apidocSignatureSpan">(name)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_getOrCreateVertex = function (name) {
+			var v = this.vertices[name];
+			if(!v) {
+				v = this.vertices[name] = { name: name, edges: {} };
+			}
+
+			return v;
+		}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+	DirectedGraph.prototype = {
+		/**
+		 * Add a new edge from one vertex to another
+		 * @param {string} from vertex at the tail of the edge
+		 * @param {string} to vertex at the head of the edge
+		 */
+		addEdge: function(from, to) {
+			this.<span class="apidocCodeKeywordSpan">_getOrCreateVertex</span>(to);
+			this._getOrCreateVertex(from).edges[to] = 1;
+		},
+
+		/**
+		 * Adds and initializes new vertex, or returns an existing vertex
+		 * if one with the supplied name already exists
+		 * @param {string} name vertex name
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.wire.DirectedGraph.prototype.addEdge" id="apidoc.element.wire.DirectedGraph.prototype.addEdge">
+        function <span class="apidocSignatureSpan">wire.DirectedGraph.prototype.</span>addEdge
+        <span class="apidocSignatureSpan">(from, to)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">addEdge = function (from, to) {
+			this._getOrCreateVertex(to);
+			this._getOrCreateVertex(from).edges[to] = 1;
+		}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+	 * @return {string} the name being used.
+	 */
+	function ensureNoCycles(namesGraph, name, onBehalfOf) {
+		var stronglyConnected, cycles;
+
+		// add the name to the graph
+		onBehalfOf = onBehalfOf||&#x27;?&#x27;;
+		namesGraph.<span class="apidocCodeKeywordSpan">addEdge</span>(onBehalfOf, name);
+
+		// compute cycles
+		stronglyConnected = findStronglyConnected(namesGraph);
+		cycles = stronglyConnected.filter(function(node) {
+			// Only consider cycles that:
+			// * have more than one node
+			// * have one node and that node is not self-referenced
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.wire.DirectedGraph.prototype.eachEdgeFrom" id="apidoc.element.wire.DirectedGraph.prototype.eachEdgeFrom">
+        function <span class="apidocSignatureSpan">wire.DirectedGraph.prototype.</span>eachEdgeFrom
+        <span class="apidocSignatureSpan">(vertex, lambda)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">eachEdgeFrom = function (vertex, lambda) {
+			var v, e, vertices;
+
+			vertices = this.vertices;
+			v = vertices[vertex];
+
+			if(!v) {
+				return;
+			}
+
+			for(e in v.edges) {
+				lambda(v, vertices[e]);
+			}
+		}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+		function findStronglyConnected(dg, v) {
+			var vertices, vertex;
+
+			v.index = v.lowlink = index;
+			index += 1;
+			pushStack(stack, v);
+
+			dg.<span class="apidocCodeKeywordSpan">eachEdgeFrom</span>(v.name, function(v, w) {
+
+				if(w.index === undef) {
+					// Continue depth first search
+					findStronglyConnected(dg, w);
+					v.lowlink = Math.min(v.lowlink, w.lowlink);
+				} else if(w.onStack) {
+					v.lowlink = Math.min(v.lowlink, w.index);
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.wire.DirectedGraph.prototype.eachVertex" id="apidoc.element.wire.DirectedGraph.prototype.eachVertex">
+        function <span class="apidocSignatureSpan">wire.DirectedGraph.prototype.</span>eachVertex
+        <span class="apidocSignatureSpan">(lambda)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">eachVertex = function (lambda) {
+			var vertices, v;
+
+			vertices = this.vertices;
+			for(v in vertices) {
+				lambda(vertices[v]);
+			}
+		}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+		index = 0;
+		stack = [];
+
+		scc = [];
+
+		// Clear out any old cruft that may be hanging around
+		// from a previous run.  Maybe should do this afterward?
+		digraph.<span class="apidocCodeKeywordSpan">eachVertex</span>(function(v) {
+			delete v.index;
+			delete v.lowlink;
+			delete v.onStack;
+		});
+
+		// Start the depth first search
+		digraph.eachVertex(function(v) {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.wire.DirectedGraph.prototype.removeEdge" id="apidoc.element.wire.DirectedGraph.prototype.removeEdge">
+        function <span class="apidocSignatureSpan">wire.DirectedGraph.prototype.</span>removeEdge
+        <span class="apidocSignatureSpan">(from, to)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">removeEdge = function (from, to) {
+			var outbound = this.vertices[from];
+			if(outbound) {
+				delete outbound.edges[to];
+			}
+		}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+	function trackInflightRef(refGraph, cycleTimeout, refPromise, refName, onBehalfOf) {
+
+		onBehalfOf = onBehalfOf||&#x27;?&#x27;;
+		refGraph.addEdge(onBehalfOf, refName);
+
+		return timeout(cycleTimeout, refPromise).then(
+			function(resolved) {
+				refGraph.<span class="apidocCodeKeywordSpan">removeEdge</span>(onBehalfOf, refName);
+				return resolved;
+			},
+			function() {
+				var stronglyConnected, cycles;
+
+				stronglyConnected = findStronglyConnected(refGraph);
+				cycles = stronglyConnected.filter(function(node) {
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.wire.Map" id="apidoc.module.wire.Map">module wire.Map</a></h1>
 
 
@@ -3270,21 +3081,21 @@ define(function() {
 			return found ? value : arguments[1];
 		}</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-			if(target.length &#x3e; 1) {
-				method = target[1];
-				target = target[0];
-				return when(getProxy(target), function(proxy) {
-					return createProxyInvoker(proxy, method);
-				});
-			} else {
-				if(proxy &#x26;&#x26; typeof proxy.<span class="apidocCodeKeywordSpan">get</span>(bindSpec) == &#x27;function&#x27;) {
-					return createProxyInvoker(proxy, bindSpec);
-				} else {
-					return resolveRef(bindSpec);
-				}
-			}
+        // most certainly an ancestor of it.
+        // So, may need to modify this test if that seems to happen in practice.
+        return it instanceof Widget;
+    }
 
-		}
+	var dijitProxy = {
+		get: function(name) {
+			return this.target.<span class="apidocCodeKeywordSpan">get</span>(name);
+		},
+		set: function(name, val) {
+			return this.target.set(name, val);
+		},
+		destroy: function() {
+			return destroyDijit(this.target);
+		},
 ...</pre></li>
     </ul>
 
@@ -3327,21 +3138,21 @@ define(function() {
 			}
 		}</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-			var id, inst;
+    }
 
-			id = component.id;
-			if(id != null) {
-				inst = WireProxy.getTarget(instance);
-				this.instances[id] = inst;
-				if(component.proxy) {
-					this._instanceToProxy.<span class="apidocCodeKeywordSpan">set</span>(inst, component.proxy);
-				}
-				if(component.initialized) {
-					component.initialized.resolve(inst);
-				}
-			}
-
-			return instance;
+	var dijitProxy = {
+		get: function(name) {
+			return this.target.get(name);
+		},
+		set: function(name, val) {
+			return this.target.<span class="apidocCodeKeywordSpan">set</span>(name, val);
+		},
+		destroy: function() {
+			return destroyDijit(this.target);
+		},
+		clone: function() {
+			return dojo.clone(this.target);
+		}
 ...</pre></li>
     </ul>
 
@@ -3499,20 +3310,25 @@ define(function() {
 		return object.extend(proxy, extensions);
 	}</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-		Scope.apply(this, arguments);
-	}
+};
+```
 
-	/**
-	 * Container inherits from Scope, adding plugin support and
-	 * context level events.
-	 */
-	Container.prototype = object.<span class="apidocCodeKeywordSpan">extend</span>(scopeProto, {
-		_inheritInstances: function(parent) {
-			var publicApi = {
-				wire: this._createChildContext.bind(this),
-				destroy: this.destroy.bind(this),
-				resolve: this._resolveRef.bind(this)
-			};
+**NOTE:** Since `proxies` is an array, you may implement as many proxies as your plugin needs.
+
+Your proxy specialization function will then typically do the following:
+
+1. Import the `wire/lib/WireProxy` [module](../lib/WireProxy.js).  It provides a `WireProxy.<span class="apidocCodeKeywordSpan">
+extend</span>()` method that allows you to create a specialized proxy from the `baseProxy`.
+1. Test to see if `baseProxy.target` is the type of component for which your plugin should provide a specialized proxy.  You can
+ use any test that uniquely identifies the type of components.  For example, the Dijit plugin [uses an `instanceof` to check](../
+dojo/dijit.js#L42) if a component is an instance of a Dijit `Widget`.
+1. If the component is the type you care about, then use `WireProxy.extend(baseProxy, specializationsObject)` to create a specialized
+ proxy and `return` it.
+	* The `specializationsObject` may contain method overrides for any of the proxy interface methods.
+1. If the component is *not* the type you care about, you can opt to return `undefined` (explicitly, or implicitly by simply not
+ issuing a `return` statement), or by returning `basePlugin`.
+
+Here is an example of a simple specialized wire proxy:
 ...</pre></li>
     </ul>
 
@@ -3637,7 +3453,23 @@ define(function() {
 
 			return cloneThing(target, options || {});
 		}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+		set: function(name, val) {
+			return this.target.set(name, val);
+		},
+		destroy: function() {
+			return destroyDijit(this.target);
+		},
+		clone: function() {
+			return dojo.<span class="apidocCodeKeywordSpan">clone</span>(this.target);
+		}
+	};
+
+    function proxyDijit(proxy) {
+if (isDijit(proxy.target)) {
+			return WireProxy.extend(proxy, dijitProxy);
+}
+...</pre></li>
     </ul>
 
 
@@ -3651,21 +3483,21 @@ define(function() {
     <ul>
     <li>description and source-code<pre class="apidocCodePre">destroy = function () {}</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-				return when.reduce(proxies,
-					function(_, proxy) { return lifecycle.shutdown(proxy); },
-					undef);
-			}
+				self._hidePrefs = function() {
 
-			function destroyComponents() {
-				return when.reduce(proxies,
-					function(_, proxy) { return proxy.<span class="apidocCodeKeywordSpan">destroy</span>(); },
-					undef);
-			}
+					// Reset _hidePrefs to a noop in case someone
+					// calls it.
+					self._hidePrefs = noop;
+
+					// Destroy the prefsContext
+					prefsContext.<span class="apidocCodeKeywordSpan">destroy</span>();
+				}
+			});
 		},
 
-		_registerProxy: function(proxy) {
-			if(proxy.metadata) {
-				proxy.path = proxy.metadata.path;
+		// Do-nothing show/hide methods, initially.
+		// _showPrefs will be overwritten with an injected wire function.
+		// _hidePrefs is overridden with a function to destroy the
 ...</pre></li>
     </ul>
 
@@ -3682,21 +3514,21 @@ define(function() {
 			return this.target[property];
 		}</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-			if(target.length &#x3e; 1) {
-				method = target[1];
-				target = target[0];
-				return when(getProxy(target), function(proxy) {
-					return createProxyInvoker(proxy, method);
-				});
-			} else {
-				if(proxy &#x26;&#x26; typeof proxy.<span class="apidocCodeKeywordSpan">get</span>(bindSpec) == &#x27;function&#x27;) {
-					return createProxyInvoker(proxy, bindSpec);
-				} else {
-					return resolveRef(bindSpec);
-				}
-			}
+        // most certainly an ancestor of it.
+        // So, may need to modify this test if that seems to happen in practice.
+        return it instanceof Widget;
+    }
 
-		}
+	var dijitProxy = {
+		get: function(name) {
+			return this.target.<span class="apidocCodeKeywordSpan">get</span>(name);
+		},
+		set: function(name, val) {
+			return this.target.set(name, val);
+		},
+		destroy: function() {
+			return destroyDijit(this.target);
+		},
 ...</pre></li>
     </ul>
 
@@ -3749,21 +3581,21 @@ define(function() {
 			return value;
 		}</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-			var id, inst;
+    }
 
-			id = component.id;
-			if(id != null) {
-				inst = WireProxy.getTarget(instance);
-				this.instances[id] = inst;
-				if(component.proxy) {
-					this._instanceToProxy.<span class="apidocCodeKeywordSpan">set</span>(inst, component.proxy);
-				}
-				if(component.initialized) {
-					component.initialized.resolve(inst);
-				}
-			}
-
-			return instance;
+	var dijitProxy = {
+		get: function(name) {
+			return this.target.get(name);
+		},
+		set: function(name, val) {
+			return this.target.<span class="apidocCodeKeywordSpan">set</span>(name, val);
+		},
+		destroy: function() {
+			return destroyDijit(this.target);
+		},
+		clone: function() {
+			return dojo.clone(this.target);
+		}
 ...</pre></li>
     </ul>
 
@@ -3787,20 +3619,21 @@ define(function() {
 		};
 	}</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-				destroy: this.destroy.bind(this),
-				resolve: this._resolveRef.bind(this)
-			};
-
-			return WireContext.inherit(parent.instances, publicApi);
-		},
-
-		_init: advice.<span class="apidocCodeKeywordSpan">after</span>(
-			scopeProto._init,
-			function() {
-				this.plugins = new PluginRegistry();
-				return this._installDefaultPlugins();
+			/**
+			 * Add after advice to publish the result of target[method]
+			 * @param target {Object} target object
+			 * @param method {String} method name to which to apply advice
+			 * @param topic {String} dojo.publish topic on which to publish the result
+			 */
+			function addPublishAdvice(target, method, topic) {
+				return meld.<span class="apidocCodeKeywordSpan">after</span>(target, method, function(result) {
+					pubsub.publish(topic, [result]);
+				});
 			}
-		),
+
+			/**
+			 * Proxies methods on target so that they publish topics after
+			 * being invoked.  The payload of a topic will be the return
 ...</pre></li>
     </ul>
 
@@ -3858,7 +3691,23 @@ define(function() {
 			return f.apply(this, arguments);
 		};
 	}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+				if (location &#x3c;= 0) {
+					$refNode.prepend(node);
+				}
+				else if (location &#x3e;= $children.length) {
+					$refNode.append(node);
+				}
+				else {
+					$children.eq(location).<span class="apidocCodeKeywordSpan">before</span>(node);
+				}
+			}
+			else if (location == &#x27;at&#x27;) {
+				$refNode.empty().append(node);
+			}
+			else if (location == &#x27;last&#x27;) {
+				$refNode.append(node);
+...</pre></li>
     </ul>
 
 
@@ -3901,71 +3750,6 @@ define(function() {
 						return self._contextEvent(&#x27;initialize&#x27;);
 					});
 ...</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.wire.aop" id="apidoc.module.wire.aop">module wire.aop</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.wire.aop.aop" id="apidoc.element.wire.aop.aop">
-        function <span class="apidocSignatureSpan">wire.</span>aop
-        <span class="apidocSignatureSpan">(options)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">aop = function (options) {
-
-		var plugin, aspects, makeAdvice;
-
-		aspects = [];
-		makeAdvice = makeAdviceFacet.bind(null, aspects);
-
-		plugin = {
-			context: {
-				destroy: function(resolver) {
-					connection.removeAll(aspects);
-					resolver.resolve();
-				}
-			},
-			facets: {
-				decorate:       makeFacet(&#x27;configure:after&#x27;, decorateFacet),
-				afterFulfilling: makeFacet(adviceStep, makeAdvice(addAfterFulfillingAdvice)),
-				afterRejecting:  makeFacet(adviceStep, makeAdvice(addAfterRejectingAdvice)),
-				after: makeFacet(adviceStep, makeAdvice(addAfterPromiseAdvice))
-			}
-		};
-
-		if(options.aspects) {
-			plugin.create = function(resolver, proxy, wire) {
-				var woven = weave(proxy, wire, options, aspects);
-				resolver.resolve(woven);
-			};
-		}
-
-		// Add all regular single advice facets
-		adviceTypes.forEach(function(adviceType) {
-			plugin.facets[adviceType] = makeFacet(adviceStep,
-				makeAdvice(makeSingleAdviceAdd(adviceType)));
-		});
-
-		return plugin;
-
-		function makeFacet(step, callback) {
-			var facet = {};
-
-			facet[step] = function(resolver, proxy, wire) {
-				callback(resolver, proxy, wire);
-			};
-
-			return facet;
-		}
-
-	}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
 
@@ -4059,84 +3843,23 @@ define(function() {
 			return union;
 		}, a1.slice());
 	}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
+    <li>example usage<pre class="apidocCodePre">...
+		},
 
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.wire.asap" id="apidoc.module.wire.asap">module wire.asap</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.wire.asap.asap" id="apidoc.element.wire.asap.asap">
-        function <span class="apidocSignatureSpan">wire.</span>asap
-        <span class="apidocSignatureSpan">(promiseOrValue, onFulfill, onReject)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function asap(promiseOrValue, onFulfill, onReject) {
-		return when.isPromiseLike(promiseOrValue)
-			? when(promiseOrValue, onFulfill, onReject)
-			: onFulfill(promiseOrValue);
-	}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.wire.connect" id="apidoc.module.wire.connect">module wire.connect</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.wire.connect.connect" id="apidoc.element.wire.connect.connect">
-        function <span class="apidocSignatureSpan">wire.</span>connect
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function connectPlugin() {
-
-		var connections = [];
-
-		function makeConnection(sourceProxy, methodName, handler) {
-			connections.push(sourceProxy.advise(methodName, { on: handler }));
-		}
-
-		function connectFacet(wire, facet) {
-			var promises, connects;
-
-			connects = facet.options;
-			promises = Object.keys(connects).map(function(key) {
-				return connection.parse(
-					facet, key, connects[key], wire, makeConnection);
-			});
-
-			return all(promises);
-		}
-
-		return {
-			context: {
-				destroy: function(resolver) {
-					connection.removeAll(connections);
-					resolver.resolve();
-				}
-			},
-			facets: {
-				// A facet named &#x22;connect&#x22; that runs during the connect
-				// lifecycle phase
-				connect: {
-					connect: function(resolver, facet, wire) {
-						resolver.resolve(connectFacet(wire, facet));
-					}
-				}
+		_registerProxies: function (proxiesToAdd) {
+			if (!proxiesToAdd) {
+				return;
 			}
-		};
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+
+			this.proxiers = priority.sortReverse(array.<span class="apidocCodeKeywordSpan">union</span>(this.proxiers, proxiesToAdd));
+		}
+	};
+
+	return PluginRegistry;
+
+	function discoverPlugin(module) {
+		var plugin;
+...</pre></li>
     </ul>
 
 
@@ -4256,7 +3979,23 @@ define(function() {
 		return promise;
 
 	}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+						// Otherwise, let the connection lib do it&#x27;s thing
+						if(transform) {
+							// TODO: Remove this long form?  It&#x27;d simplify the code a lot
+							events = splitEventSelectorString(event, selector);
+							method = connections[event];
+							promises.push(createTransformedConnection(events, target[method], wire(transform)));
+						} else {
+							promises.push(connection.<span class="apidocCodeKeywordSpan">parseIncoming</span>(srcProxy, event, targetProxy, options,
+connections[event], wire, createConnection));
+						}
+					}
+				}
+
+				return when.all(promises);
+			}
+...</pre></li>
     </ul>
 
 
@@ -4271,7 +4010,24 @@ define(function() {
     <li>description and source-code<pre class="apidocCodePre">function parseOutgoing(proxy, connect, options, wire, createConnection) {
 		return createOutgoing(proxy, connect, proxy, options, wire, createConnection);
 	}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+						// It&#x27;s an incoming connection, parse it as such
+						return parseIncomingOn(srcProxy, proxy, connections, wire);
+					},
+					function () {
+						// Failed to resolve refName as a reference, assume it
+						// is an outgoing event with the current component (which
+						// must be a Node) as the source
+						return connection.<span class="apidocCodeKeywordSpan">parseOutgoing</span>(proxy, refName, connections, wire, createConnection
+);
+					}
+				);
+
+			}
+
+			function onFacet (wire, facet) {
+				var promises, connections;
+...</pre></li>
     </ul>
 
 
@@ -4305,48 +4061,6 @@ define(function() {
 				afterFulfilling: makeFacet(adviceStep, makeAdvice(addAfterFulfillingAdvice)),
 				afterRejecting:  makeFacet(adviceStep, makeAdvice(addAfterRejectingAdvice)),
 ...</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.wire.context" id="apidoc.module.wire.context">module wire.context</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.wire.context.context" id="apidoc.element.wire.context.context">
-        function <span class="apidocSignatureSpan">wire.</span>context
-        <span class="apidocSignatureSpan">(specs, parent, options)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function createContext(specs, parent, options) {
-		// Do the actual wiring after all specs have been loaded
-
-		if(!options) { options = {}; }
-		if(!parent)  { parent  = {}; }
-
-		options.createContext = createContext;
-
-		var specLoader = createSpecLoader(parent.moduleLoader, options.require);
-
-		return when(specs, function(specs) {
-			options.moduleLoader =
-				createContextLoader(specLoader, findBaseId(specs));
-
-			return specUtils.mergeSpecs(specLoader, specs).then(function(spec) {
-
-				var container = new Container(parent, options);
-
-				// Expose only the component instances and controlled API
-				return container.init(spec).then(function(context) {
-					return context.instances;
-				});
-			});
-		});
-	}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
 
@@ -4547,185 +4261,182 @@ define(function() {
 </div>
 
 <div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.wire.debug" id="apidoc.module.wire.debug">module wire.debug</a></h1>
+<h1><a href="#apidoc.module.wire.cyclesTracker" id="apidoc.module.wire.cyclesTracker">module wire.cyclesTracker</a></h1>
 
 
     <h2>
-        <a href="#apidoc.element.wire.debug.debug" id="apidoc.element.wire.debug.debug">
-        function <span class="apidocSignatureSpan">wire.</span>debug
-        <span class="apidocSignatureSpan">(options)</span>
+        <a href="#apidoc.element.wire.cyclesTracker.ensureNoCycles" id="apidoc.element.wire.cyclesTracker.ensureNoCycles">
+        function <span class="apidocSignatureSpan">wire.cyclesTracker.</span>ensureNoCycles
+        <span class="apidocSignatureSpan">(namesGraph, name, onBehalfOf)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">function wireDebug(options) {
+    <li>description and source-code<pre class="apidocCodePre">function ensureNoCycles(namesGraph, name, onBehalfOf) {
+		var stronglyConnected, cycles;
 
-		var contextTimer, timeout, paths, count, tag,
-			logCreated, logDestroyed, checkPathsTimeout,
-			verbose, filter, plugin, context, tracer;
+		// add the name to the graph
+		onBehalfOf = onBehalfOf||&#x27;?&#x27;;
+		namesGraph.addEdge(onBehalfOf, name);
 
-		verbose = options.verbose;
-		contextTimer = createTimer();
+		// compute cycles
+		stronglyConnected = findStronglyConnected(namesGraph);
+		cycles = stronglyConnected.filter(function(node) {
+			// Only consider cycles that:
+			// * have more than one node
+			// * have one node and that node is not self-referenced
+			return node.length &#x3e; 1 || (node.length === 1 &#x26;&#x26; Object.keys(node[0].edges).indexOf(node[0].name) !== -1);
+		});
 
-		count = 0;
-		tag = &#x22;WIRING&#x22;;
-
-		tracer = { trace: noop, untrace: noop };
-
-		filter = createPathFilter(options.filter);
-
-		function contextTime(msg) {
-			return time(msg, contextTimer);
+		// is there a cycle?
+		if(cycles.length) {
+			// Cycles detected
+			throw new Error(&#x27;Possible circular usage:\n&#x27; + formatCycles(cycles));
 		}
 
-		logger.log(contextTime(&#x22;Context debug&#x22;));
+		return name;
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+			spec.$imports = [spec.$imports];
+		}
 
-		context = {
-			initialize: function(resolver) {
-				logger.log(contextTime(&#x22;Context init&#x22;));
-				resolver.resolve();
+		importingModuleId = importingModuleId || (typeof spec === &#x27;string&#x27; ? spec : undefined);
+
+		return when.reduce(spec.$imports, function(currentSpecImports, importedModuleId){
+			// make sure that there is no cycles
+			cyclesTracker.<span class="apidocCodeKeywordSpan">ensureNoCycles</span>(importsGraph, importedModuleId, importingModuleId);
+
+			// go ahead with the import
+			return when(scope.getModule(importedModuleId), function(importedSpec){
+				return processImports(scope, importedSpec, importsGraph, importedModuleId).then(function(importedSpecImports){
+					// modules of importing spec overrides modules of imported specs.
+					var importedSpecAndItsImports = object.mixin(importedSpecImports, importedSpec);
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.wire.defaultPlugins" id="apidoc.module.wire.defaultPlugins">module wire.defaultPlugins</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.wire.defaultPlugins.0" id="apidoc.element.wire.defaultPlugins.0">
+        function <span class="apidocSignatureSpan">wire.defaultPlugins.</span>0
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">0 = function () {
+
+		var ready = when.defer();
+
+		return {
+			context: {
+				ready: function(resolver) {
+					ready.resolve();
+					resolver.resolve();
+				}
 			},
-			ready: function(resolver) {
-				cancelPathsTimeout();
-				logger.log(contextTime(&#x22;Context ready&#x22;));
-				resolver.resolve();
+			resolvers: {
+				wire: wireResolver
 			},
-			destroy: function(resolver) {
-				tracer.untrace();
-				logger.log(contextTime(&#x22;Context destroyed&#x22;));
-				resolver.resolve();
-			},
-			error: function(resolver, api, err) {
-				cancelPathsTimeout();
-				console.error(contextTime(&#x22;Context ERROR: &#x22;) + err, err);
-				logStack(err);
-				resolver.reject(err);
+			factories: {
+				wire: wireFactory
 			}
 		};
 
-		function makeListener(step, verbose) {
-			return function (promise, proxy<span class="apidocCodeCommentSpan"> /*, wire */) {
-				cancelPathsTimeout();
-
-				var path = proxy.path;
-
-				if (paths[path]) {
-					paths[path].status = step;
-				}
-
-				if (verbose &#x26;&#x26; filter(path)) {
-					var message = time(step + &#x27; &#x27; + (path || proxy.id || &#x27;&#x27;), contextTimer);
-					if (proxy.target) {
-						logger.log(message, proxy.target, proxy.metadata);
-					} else {
-						logger.log(message, proxy);
-					}
-				}
-
-				if(count) {
-					checkPathsTimeout = setTimeout(checkPaths, timeout);
-				}
-
-				promise.resolve();
-			};
-		}
-
-		paths = {};
-		timeout = options.timeout || defaultTimeout;
-		logCreated = makeListener(&#x27;created&#x27;, verbose);
-		logDestroyed = makeListener(&#x27;destroyed&#x27;, true);
-
-		function cancelPathsTimeout() {
-			clearTimeout(checkPathsTimeout);
-			checkPathsTimeout = null;
-		}
-
-		function checkPaths() {
-			if (!checkPathsTimeout) {
-				return;
-			}
-
-			var p, component, msg, ready, notReady;
-
-			logSeparator();
-			if(count) {
-				ready = [];
-				notReady = [];
-				logger.error(tag + &#x27;: No progress in &#x27; + timeout + &#x27;ms, status:&#x27;);
-
-				for (p in paths) {
-					component = paths[p];
-					msg = p + &#x27;: &#x27; + component.status;
-
-					(component.status == &#x27;ready&#x27; ? ready : notReady).push(
-						{ msg: msg, metadata: component.metadata }
-					);
-				}
-
-				if(notReady.length &#x3e; 0) {
-					logSeparator();
-					logger.log(&#x27;Components that DID NOT finish wiring&#x27;);
-					for(p = notReady.length-1; p &#x3e;= 0; --p) {
-						component = notReady[p];
-						logger.error(component.msg, component.metadata);
-					}
-				}
-
-				if(ready.length &#x3e; 0) {
-					logSeparator();
-					logger.log(&#x27;Components that finished wiring&#x27;);
-					for(p = ready.length-1; p &#x3e;= 0; --p) {
-						component = ready[p];
-						logger.log(component.msg, component.metadata);
-					}
-				}
-			} else {
-				logger.error(tag + &#x27;: No components created after &#x27; + timeout + &#x27;ms&#x27;);
-			}
-
-			logSeparator();
-		}
-
-		/**
-		 * Adds a named constructor function property to the supplied component
-		 * so that the name shows up in debug inspectors.  Squelches all errors.
+		<span class="apidocCodeCommentSpan">/**
+		 * Factory that creates either a child context, or a *function* that will create
+		 * that child context.  In the case that a child is created, this factory returns
+		 * a promise that will resolve when the child has completed wiring.
+		 *
+		 * @param {Object} resolver used to resolve with the created component
+		 * @param {Object} componentDef component spec for the component to be created
+		 * @param {function} wire scoped wire function
 		 */
-</span>		function makeConstructor(name, component) {
-			/*jshint evil:true*/
-			var ctor;
-			try {
-				// Generate a named function to use as the constructor
-				name = name.replace(/^[^a-zA-Z$_]|[^a-zA-Z0-9$_]+/g, &#x27;_&#x27;);
-				eval(&#x27;ctor = function &#x27; + name + &#x27; () {}&#x27;);
+</span>		function wireFactory(resolver, componentDef, wire) {
+			var options, module, provide, defer, waitParent, result;
 
-				// Be friendly and make configurable and writable just in case
-				// some other library or application code tries to set constructor.
-				Object.defineProperty(component, &#x27;constructor&#x27;, {
-					configurable: true,
-					writable: true,
-					value: ctor
+			options = componentDef.options;
+
+			// Get child spec and options
+			if(object.isObject(options) &#x26;&#x26; &#x27;spec&#x27; in options) {
+				module = options.spec;
+				waitParent = options.waitParent;
+				defer = options.defer;
+				provide = options.provide;
+			} else {
+				module = options;
+			}
+
+			function init(context) {
+				var initialized;
+
+				if(provide) {
+					initialized = when(wire(provide), function(provides) {
+						object.mixin(context.instances, provides);
+					});
+				}
+
+				return initialized;
+			}
+
+			/**
+			 * Create a child context of the current context
+			 * @param {object?} mixin additional spec to be mixed into
+			 *  the child being wired
+			 * @returns {Promise} promise for child context
+			 */
+			function createChild(/** {Object|String}? */ mixin) {
+				var spec, config;
+
+				spec = mixin ? [].concat(module, mixin) : module;
+				config = { initializers: [init] };
+
+				var child = wire.createChild(spec, config);
+				return defer ? child
+					: when(child, function(child) {
+					return object.hasOwn(child, &#x27;$exports&#x27;) ? child.$exports : child;
+				});
+			}
+
+			if (defer) {
+				// Resolve with the createChild *function* itself
+				// which can be used later to wire the spec
+				result = createChild;
+
+			} else if(waitParent) {
+
+				var childPromise = when(ready.promise, function() {
+					// ensure nothing is passed to createChild here
+					return createChild();
 				});
 
-			} catch(e) {
-				// Oh well, ignore.
+				result = wrapChild(childPromise);
+
+			} else {
+				result = createChild();
 			}
+
+			resolver.resolve(result);
 		}
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
 
-		plugin = {
-			context: context,
-			create:function (promise, proxy) {
-				var path, component;
 
-				path = proxy.path;
-				component = proxy.target;
 
-				count++;
-				paths[path || (&#x27;(unnamed-&#x27; + count + &#x27;)&#x27;)] = {
-					metadata: proxy.metadata
-				};
-
-				if(component &#x26;&#x26; typeof component == &#x27;object&#x27;
-					&#x26;&#x26; !ownProp(component, &#x27;constructor&#x27;)) {
-					makeConstructor(proxy.id ...</pre></li>
+    <h2>
+        <a href="#apidoc.element.wire.defaultPlugins.1" id="apidoc.element.wire.defaultPlugins.1">
+        function <span class="apidocSignatureSpan">wire.defaultPlugins.</span>1
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">1 = function () {
+		return pluginInstance;
+	}</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
@@ -4758,7 +4469,23 @@ define(function() {
 			}, first.apply(this, arguments));
 		};
 	}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+				 * Compose a transform pipeline and then pass it to addConnection
+				 */
+				function createTransformedConnection(events, targetMethod, transformPromise) {
+					return when(transformPromise, function(transform) {
+						var composed, node;
+
+						node = srcProxy.target;
+						composed = functional.<span class="apidocCodeKeywordSpan">compose</span>([transform, targetMethod]);
+							//.bind(targetProxy.target);
+
+						removers = removers.concat(
+							registerHandlers(events, node, function() {
+								return targetProxy.invoke(composed, arguments);
+							}, prevent, stop)
+						);
+...</pre></li>
     </ul>
 
 
@@ -4780,64 +4507,6 @@ define(function() {
 
 		return function() {
 			return f.apply(this, args.concat(slice.call(arguments)));
-		};
-	}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.wire.instantiate" id="apidoc.module.wire.instantiate">module wire.instantiate</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.wire.instantiate.instantiate" id="apidoc.element.wire.instantiate.instantiate">
-        function <span class="apidocSignatureSpan">wire.</span>instantiate
-        <span class="apidocSignatureSpan">(ctor, args, forceConstructor)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function instantiate(ctor, args, forceConstructor) {
-
-		var begotten, ctorResult;
-
-		if (forceConstructor || (forceConstructor === undef &#x26;&#x26; isConstructor(ctor))) {
-			begotten = Object.create(ctor.prototype);
-			defineConstructorIfPossible(begotten, ctor);
-			ctorResult = ctor.apply(begotten, args);
-			if(ctorResult !== undef) {
-				begotten = ctorResult;
-			}
-
-		} else {
-			begotten = ctor.apply(undef, args);
-
-		}
-
-		return begotten === undef ? null : begotten;
-	}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.wire.invoker" id="apidoc.module.wire.invoker">module wire.invoker</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.wire.invoker.invoker" id="apidoc.element.wire.invoker.invoker">
-        function <span class="apidocSignatureSpan">wire.</span>invoker
-        <span class="apidocSignatureSpan">(methodName, args)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">invoker = function (methodName, args) {
-		return function(target) {
-			return target[methodName].apply(target, args);
 		};
 	}</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -4987,30 +4656,79 @@ define(function() {
 </div>
 
 <div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.wire.load" id="apidoc.module.wire.load">module wire.load</a></h1>
+<h1><a href="#apidoc.module.wire.moduleId" id="apidoc.module.wire.moduleId">module wire.moduleId</a></h1>
 
 
     <h2>
-        <a href="#apidoc.element.wire.load.load" id="apidoc.element.wire.load.load">
-        function <span class="apidocSignatureSpan">wire.</span>load
-        <span class="apidocSignatureSpan">(name, require, done)</span>
+        <a href="#apidoc.element.wire.moduleId.base" id="apidoc.element.wire.moduleId.base">
+        function <span class="apidocSignatureSpan">wire.moduleId.</span>base
+        <span class="apidocSignatureSpan">(id)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">function amdLoad(name, require, done) {
-		// If it&#x27;s a string, try to split on &#x27;,&#x27; since it could be a comma-separated
-		// list of spec module ids
-		wire(name.split(&#x27;,&#x27;), { require: require })
-			.then(done, done.error)
-			.otherwise(crash);
-
-		function crash(e) {
-			// Throw uncatchable exception for loaders that don&#x27;t support
-			// AMD error handling.  This will propagate up to the host environment
-			setTimeout(function() { throw e; }, 0);
+    <li>description and source-code<pre class="apidocCodePre">function base(id) {
+		if(!id) {
+			return &#x27;&#x27;;
 		}
+
+		var split = id.lastIndexOf(&#x27;/&#x27;);
+		return split &#x3e;= 0 ? id.slice(0, split) : id;
 	}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ */
+(function(define) { &#x27;use strict&#x27;;
+define(function(require) {
+
+	var mid = require(&#x27;./moduleId&#x27;);
+
+	return function relativeLoader(loader, referenceId) {
+		referenceId = mid.<span class="apidocCodeKeywordSpan">base</span>(referenceId);
+		return function(moduleId) {
+			return loader(mid.resolve(referenceId, moduleId));
+		};
+	};
+
+});
+}(typeof define === &#x27;function&#x27; &#x26;&#x26; define.amd ? define : function(factory) { module.exports = factory(require
+); }));
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.wire.moduleId.resolve" id="apidoc.element.wire.moduleId.resolve">
+        function <span class="apidocSignatureSpan">wire.moduleId.</span>resolve
+        <span class="apidocSignatureSpan">(base, id)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function resolve(base, id) {
+		if(typeof id != &#x27;string&#x27;) {
+			return base;
+		}
+
+		return id.split(&#x27;!&#x27;).map(function(part) {
+			return resolveId(base, part.trim());
+		}).join(&#x27;!&#x27;);
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+        options = facet.options;
+        tasks = [];
+
+        for(var decoratorRefName in options) {
+            tasks.push(makeDecorator(decoratorRefName, options[decoratorRefName], wire));
+        }
+
+		resolver.<span class="apidocCodeKeywordSpan">resolve</span>(sequence(tasks, target));
+    }
+
+	//
+	// Simple advice
+	//
+
+	function addSingleAdvice(addAdviceFunc, proxy, advice, options, wire, advices) {
+...</pre></li>
     </ul>
 
 
@@ -5031,20 +4749,25 @@ define(function() {
 		return mixin(inherit(base), extensions);
 	}</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-		Scope.apply(this, arguments);
-	}
+};
+```
 
-	/**
-	 * Container inherits from Scope, adding plugin support and
-	 * context level events.
-	 */
-	Container.prototype = object.<span class="apidocCodeKeywordSpan">extend</span>(scopeProto, {
-		_inheritInstances: function(parent) {
-			var publicApi = {
-				wire: this._createChildContext.bind(this),
-				destroy: this.destroy.bind(this),
-				resolve: this._resolveRef.bind(this)
-			};
+**NOTE:** Since `proxies` is an array, you may implement as many proxies as your plugin needs.
+
+Your proxy specialization function will then typically do the following:
+
+1. Import the `wire/lib/WireProxy` [module](../lib/WireProxy.js).  It provides a `WireProxy.<span class="apidocCodeKeywordSpan">
+extend</span>()` method that allows you to create a specialized proxy from the `baseProxy`.
+1. Test to see if `baseProxy.target` is the type of component for which your plugin should provide a specialized proxy.  You can
+ use any test that uniquely identifies the type of components.  For example, the Dijit plugin [uses an `instanceof` to check](../
+dojo/dijit.js#L42) if a component is an instance of a Dijit `Widget`.
+1. If the component is the type you care about, then use `WireProxy.extend(baseProxy, specializationsObject)` to create a specialized
+ proxy and `return` it.
+	* The `specializationsObject` may contain method overrides for any of the proxy interface methods.
+1. If the component is *not* the type you care about, you can opt to return `undefined` (explicitly, or implicitly by simply not
+ issuing a `return` statement), or by returning `basePlugin`.
+
+Here is an example of a simple specialized wire proxy:
 ...</pre></li>
     </ul>
 
@@ -5162,21 +4885,21 @@ define(function() {
 		}, to);
 	}</pre></li>
     <li>example usage<pre class="apidocCodePre">...
+	DirectedGraph = require(&#x27;./graph/DirectedGraph&#x27;);
+	cyclesTracker = require(&#x27;./graph/cyclesTracker&#x27;);
+	
+	defer = when.defer;
 
-		function WireContext() {}
+	function Scope(parent, options) {
+		this.parent = parent||{};
+		object.<span class="apidocCodeKeywordSpan">mixin</span>(this, options);
+	}
 
-		WireContext.inherit = function(parent, api) {
-			var contextApi, context;
+	Scope.prototype = {
 
-			contextApi = object.inherit(parent);
-			object.<span class="apidocCodeKeywordSpan">mixin</span>(contextApi, api);
+		init: function(spec) {
 
-			WireContext.prototype = contextApi;
-
-			context = new WireContext();
-			WireContext.prototype = undef;
-
-			return context;
+			this._inherit(this.parent);
 ...</pre></li>
     </ul>
 
@@ -5184,78 +4907,195 @@ define(function() {
 </div>
 
 <div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.wire.pipeline" id="apidoc.module.wire.pipeline">module wire.pipeline</a></h1>
+<h1><a href="#apidoc.module.wire.priority" id="apidoc.module.wire.priority">module wire.priority</a></h1>
 
 
     <h2>
-        <a href="#apidoc.element.wire.pipeline.pipeline" id="apidoc.element.wire.pipeline.pipeline">
-        function <span class="apidocSignatureSpan">wire.</span>pipeline
-        <span class="apidocSignatureSpan">(proxy, composeString, wire)</span>
+        <a href="#apidoc.element.wire.priority.sortReverse" id="apidoc.element.wire.priority.sortReverse">
+        function <span class="apidocSignatureSpan">wire.priority.</span>sortReverse
+        <span class="apidocSignatureSpan">(list)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">function pipeline(proxy, composeString, wire) {
+    <li>description and source-code<pre class="apidocCodePre">function prioritizeReverse(list) {
+		return list.sort(byReversePriority);
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+		},
 
-		var bindSpecs, resolveRef, getProxy;
-
-		if(typeof composeString != &#x27;string&#x27;) {
-			return wire(composeString).then(function(func) {
-				return createProxyInvoker(proxy, func);
-			});
-		}
-
-		bindSpecs = composeString.split(pipelineSplitRx);
-		resolveRef = wire.resolveRef;
-		getProxy = wire.getProxy;
-
-		function createProxyInvoker(proxy, method) {
-			return function() {
-				return proxy.invoke(method, arguments);
-			};
-		}
-
-		function createBound(proxy, bindSpec) {
-			var target, method;
-
-			target = bindSpec.split(&#x27;.&#x27;);
-
-			if(target.length &#x3e; 2) {
-				throw new Error(&#x27;Only 1 &#x22;.&#x22; is allowed in refs: &#x27; + bindSpec);
+		_registerProxies: function (proxiesToAdd) {
+			if (!proxiesToAdd) {
+				return;
 			}
 
-			if(target.length &#x3e; 1) {
-				method = target[1];
-				target = target[0];
-				return when(getProxy(target), function(proxy) {
-					return createProxyInvoker(proxy, method);
-				});
-			} else {
-				if(proxy &#x26;&#x26; typeof proxy.get(bindSpec) == &#x27;function&#x27;) {
-					return createProxyInvoker(proxy, bindSpec);
-				} else {
-					return resolveRef(bindSpec);
-				}
-			}
-
+			this.proxiers = priority.<span class="apidocCodeKeywordSpan">sortReverse</span>(array.union(this.proxiers, proxiesToAdd));
 		}
+	};
 
-		// First, resolve each transform function, stuffing it into an array
-		// The result of this reduce will an array of concrete functions
-		// Then add the final context[method] to the array of funcs and
-		// return the composition.
-		return when.reduce(bindSpecs, function(funcs, bindSpec) {
-			return when(createBound(proxy, bindSpec), function(func) {
-				funcs.push(func);
-				return funcs;
-			});
-		}, []).then(
-			function(funcs) {
-				var context = proxy &#x26;&#x26; proxy.target;
-				return (funcs.length == 1 ? funcs[0] : compose(funcs)).bind(context);
-			}
-		);
+	return PluginRegistry;
+
+	function discoverPlugin(module) {
+		var plugin;
+...</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.wire.registry" id="apidoc.module.wire.registry">module wire.registry</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.wire.registry.registry" id="apidoc.element.wire.registry.registry">
+        function <span class="apidocSignatureSpan">wire.</span>registry
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function PluginRegistry() {
+		this.plugins = [];
+		this._namespaces = {};
+
+		this.contextListeners = [];
+		this.listeners = [];
+		this.proxiers =  [];
+		this.resolvers = {};
+		this.factories = {};
+		this.facets =    {};
 	}</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.wire.registry.prototype" id="apidoc.module.wire.registry.prototype">module wire.registry.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.wire.registry.prototype._registerProxies" id="apidoc.element.wire.registry.prototype._registerProxies">
+        function <span class="apidocSignatureSpan">wire.registry.prototype.</span>_registerProxies
+        <span class="apidocSignatureSpan">(proxiesToAdd)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_registerProxies = function (proxiesToAdd) {
+			if (!proxiesToAdd) {
+				return;
+			}
+
+			this.proxiers = priority.sortReverse(array.union(this.proxiers, proxiesToAdd));
+		}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+			addPlugin(plugin.facets, this.facets, namespace);
+
+			this.listeners.push(plugin);
+			if(plugin.context) {
+				this.contextListeners.push(plugin.context);
+			}
+
+			this.<span class="apidocCodeKeywordSpan">_registerProxies</span>(plugin.proxies);
+		},
+
+		_registerProxies: function (proxiesToAdd) {
+			if (!proxiesToAdd) {
+				return;
+			}
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.wire.registry.prototype.registerPlugin" id="apidoc.element.wire.registry.prototype.registerPlugin">
+        function <span class="apidocSignatureSpan">wire.registry.prototype.</span>registerPlugin
+        <span class="apidocSignatureSpan">(plugin, namespace)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">registerPlugin = function (plugin, namespace) {
+			addNamespace(namespace, this._namespaces);
+
+			addPlugin(plugin.resolvers, this.resolvers, namespace);
+			addPlugin(plugin.factories, this.factories, namespace);
+			addPlugin(plugin.facets, this.facets, namespace);
+
+			this.listeners.push(plugin);
+			if(plugin.context) {
+				this.contextListeners.push(plugin.context);
+			}
+
+			this._registerProxies(plugin.proxies);
+		}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+			// of this plugin in the current context.
+			this.plugins.push(pluginFactory);
+
+			// Initialize the plugin for this context
+			self = this;
+			return when(instantiate(pluginFactory, [spec]),
+				function (plugin) {
+					plugin &#x26;&#x26; self.<span class="apidocCodeKeywordSpan">registerPlugin</span>(plugin, namespace || getNamespace(spec));
+				}
+			).yield();
+		},
+
+		registerPlugin: function (plugin, namespace) {
+			addNamespace(namespace, this._namespaces);
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.wire.registry.prototype.scanModule" id="apidoc.element.wire.registry.prototype.scanModule">
+        function <span class="apidocSignatureSpan">wire.registry.prototype.</span>scanModule
+        <span class="apidocSignatureSpan">(module, spec, namespace)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">scanModule = function (module, spec, namespace) {
+			var self, pluginFactory;
+
+			pluginFactory = discoverPlugin(module);
+
+			if (!allowPlugin(pluginFactory, this.plugins)) {
+				return when.resolve();
+			}
+
+			// Add to singleton plugins list to only allow one instance
+			// of this plugin in the current context.
+			this.plugins.push(pluginFactory);
+
+			// Initialize the plugin for this context
+			self = this;
+			return when(instantiate(pluginFactory, [spec]),
+				function (plugin) {
+					plugin &#x26;&#x26; self.registerPlugin(plugin, namespace || getNamespace(spec));
+				}
+			).yield();
+		}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+				} else if(typeof pluginSpec.module == &#x27;string&#x27;) {
+					module = pluginSpec.module;
+				} else {
+					module = pluginSpec;
+				}
+
+				return self.getModule(module).then(function(plugin) {
+					return registry.<span class="apidocCodeKeywordSpan">scanModule</span>(plugin, pluginSpec, namespace);
+				});
+			}
+		},
+
+		_createResolver: advice.after(
+			scopeProto._createResolver,
+			function(resolver) {
+...</pre></li>
     </ul>
 
 
@@ -6681,21 +6521,21 @@ define(function() {
 			return this._destroy();
 		}</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-				return when.reduce(proxies,
-					function(_, proxy) { return lifecycle.shutdown(proxy); },
-					undef);
-			}
+				self._hidePrefs = function() {
 
-			function destroyComponents() {
-				return when.reduce(proxies,
-					function(_, proxy) { return proxy.<span class="apidocCodeKeywordSpan">destroy</span>(); },
-					undef);
-			}
+					// Reset _hidePrefs to a noop in case someone
+					// calls it.
+					self._hidePrefs = noop;
+
+					// Destroy the prefsContext
+					prefsContext.<span class="apidocCodeKeywordSpan">destroy</span>();
+				}
+			});
 		},
 
-		_registerProxy: function(proxy) {
-			if(proxy.metadata) {
-				proxy.path = proxy.metadata.path;
+		// Do-nothing show/hide methods, initially.
+		// _showPrefs will be overwritten with an injected wire function.
+		// _hidePrefs is overridden with a function to destroy the
 ...</pre></li>
     </ul>
 
@@ -6754,21 +6594,25 @@ define(function() {
 			}
 		}</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-		// If ref is a reference to another object, connect that object&#x27;s method to a method on target, i.e.
-		// calling a method on the other object causes a method on target to be called.
 
-		source = connect.split(&#x27;.&#x27;);
-		eventName = source[1];
-		source = source[0];
+Load a module.  This delegates to the underlying platform&#x27;s loader (e.g. AMD or CommonJS, etc.), and so provides an abstraction
+ for loading modules without worrying about the particulars of the platform.
 
-		return when(wire.<span class="apidocCodeKeywordSpan">getProxy</span>(source),
-			function(srcProxy) {
-				return parseIncoming(srcProxy, eventName, proxy, connect, options, wire, createConnection);
-			},
-			function() {
-				return parseOutgoing(proxy, connect, options, wire, createConnection);
-			}
-		);
+#### `wire.createChild(childWireSpec)`
+
+Wire a complete [child context](concepts.md#context-hierarchy) of the current context.  Returns a promise for the child context.
+
+#### `wire.<span class="apidocCodeKeywordSpan">getProxy</span>(componentNameOrInstance)`
+
+Gets a [proxy](concepts.md#proxies) for a component or any object.  When called with a component name, resolves the name to a component
+ and returns the component&#x27;s proxy.  When called with an object, attempts to create a new proxy using available plugins.  Returns
+ a promise for the proxy.
+
+#### `wire.addInstance(instance, name)`
+
+Registers a component instance under the provided name.  The instance may then be [referenced](concepts.md#references) by the supplied
+ `name`.  Wire *will not* pass the instance through the [component lifecycle](concepts.md#component-lifecycle).  That is, the `instance
+` will be registered under the supplied `name` as-is, without any additional processing.
 ...</pre></li>
     </ul>
 
@@ -6864,40 +6708,6 @@ define(function() {
 				return container.init(spec).then(function(context) {
 					return context.instances;
 				});
-...</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.wire.toString" id="apidoc.module.wire.toString">module wire.toString</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.wire.toString.toString" id="apidoc.element.wire.toString.toString">
-        function <span class="apidocSignatureSpan">wire.</span>toString
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function toString() { [native code] }</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-
-						// return result
-						return val;
-
-					} catch (e) {
-
-						// rethrow
-						logAfter(context, &#x27; THROW (&#x27;, start, e ? e.<span class="apidocCodeKeywordSpan">toString</span>() : e);
-
-						throw e;
-
-					} finally {
-						// And now decrease the depth after
-						--depth;
-					}
 ...</pre></li>
     </ul>
 
