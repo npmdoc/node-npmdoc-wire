@@ -1,4 +1,7 @@
-# api documentation for  [wire (v0.10.11)](https://github.com/cujojs/wire#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-wire.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-wire) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-wire.svg)](https://travis-ci.org/npmdoc/node-npmdoc-wire)
+# npmdoc-wire
+
+#### basic api documentation for  [wire (v0.10.11)](https://github.com/cujojs/wire#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-wire.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-wire) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-wire.svg)](https://travis-ci.org/npmdoc/node-npmdoc-wire)
+
 #### A light, fast, flexible Javascript IOC container.
 
 [![NPM](https://nodei.co/npm/wire.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/wire)
@@ -80,7 +83,8 @@
         "prepublish": "bower install",
         "test": "buster-test -e node"
     },
-    "version": "0.10.11"
+    "version": "0.10.11",
+    "bin": {}
 }
 ```
 
